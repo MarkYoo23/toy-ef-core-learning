@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yoo/Documents/Gitlabs/toy-efcore-learning/Toy.EfCore.Learning/Toy.EfCore.Learning.Test/Toy.EfCore.Learning.Test.csproj": {}
+  },
+  "projects": {
+    "/Users/yoo/Documents/Gitlabs/toy-efcore-learning/Toy.EfCore.Learning/Toy.EfCore.Learning.Test/Toy.EfCore.Learning.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yoo/Documents/Gitlabs/toy-efcore-learning/Toy.EfCore.Learning/Toy.EfCore.Learning.Test/Toy.EfCore.Learning.Test.csproj",
+        "projectName": "Toy.EfCore.Learning.Test",
+        "projectPath": "/Users/yoo/Documents/Gitlabs/toy-efcore-learning/Toy.EfCore.Learning/Toy.EfCore.Learning.Test/Toy.EfCore.Learning.Test.csproj",
+        "packagesPath": "/Users/yoo/.nuget/packages/",
+        "outputPath": "/Users/yoo/Documents/Gitlabs/toy-efcore-learning/Toy.EfCore.Learning/Toy.EfCore.Learning.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yoo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/yoo/Documents/Gitlabs/toy-efcore-learning/Toy.EfCore.Learning/Toy.EfCore.Learning/Toy.EfCore.Learning.csproj": {
+                "projectPath": "/Users/yoo/Documents/Gitlabs/toy-efcore-learning/Toy.EfCore.Learning/Toy.EfCore.Learning/Toy.EfCore.Learning.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yoo/Documents/Gitlabs/toy-efcore-learning/Toy.EfCore.Learning/Toy.EfCore.Learning/Toy.EfCore.Learning.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yoo/Documents/Gitlabs/toy-efcore-learning/Toy.EfCore.Learning/Toy.EfCore.Learning/Toy.EfCore.Learning.csproj",
+        "projectName": "Toy.EfCore.Learning",
+        "projectPath": "/Users/yoo/Documents/Gitlabs/toy-efcore-learning/Toy.EfCore.Learning/Toy.EfCore.Learning/Toy.EfCore.Learning.csproj",
+        "packagesPath": "/Users/yoo/.nuget/packages/",
+        "outputPath": "/Users/yoo/Documents/Gitlabs/toy-efcore-learning/Toy.EfCore.Learning/Toy.EfCore.Learning/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yoo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
